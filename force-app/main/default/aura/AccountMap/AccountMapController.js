@@ -11,7 +11,8 @@
           PostalCode: account.BillingPostalCode
         },
         title: account.Name,
-        description: "Phone: " + account.Phone + "Website: " + account.Website,
+        description:
+          "Phone: " + account.Phone + " | Website: " + account.Website,
         icon: "standard:location"
       };
       mapMarkers.push(marker);
